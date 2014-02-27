@@ -1,3 +1,5 @@
-# voyager theme
+# Voyager theme
 
-A short description of your theme.
+A syntax theme for Atom based on SpaceGrey for Sublime Text.
+
+![Screenshot](/screenshot.jpg "Preview")
