@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.0.1",
   "private": false,
-  "description": "Atom syntax theme based on Space Grey sublime theme.",
+  "description": "Atom syntax theme based on Ocean Dark sublime theme.",
   "repository": "https://github.com/jasonhowmans/atom-voyager",
   "license": "MIT",
   "engines": {
