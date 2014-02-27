@@ -1,0 +1,12 @@
+{
+  "name": "Voyager",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Atom syntax theme based on Space Grey sublime theme.",
+  "repository": "https://github.com/atom/voyager",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

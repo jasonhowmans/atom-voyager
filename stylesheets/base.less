@@ -1,0 +1,115 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "colors";
+
+.editor-colors {
+  background-color: @base-background;
+  color: @base-foreground;
+}
+
+.editor {
+  .invisible-character,
+  .indent-guide {
+    color: @base-invisibles;
+  }
+
+  .gutter {
+    background-color: @base-background;
+  }
+
+  .gutter .line-number {
+    opacity: 1;
+    color: @gutter-foreground;
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @base-support;
+  }
+
+  .cursor {
+    border-color: @base-caret;
+  }
+
+  .selection .region {
+    background-color: lighten( @base-background, 10% );
+    color: @base-foreground;
+  }
+
+  .line-number.cursor-line-no-selection {
+    background-color: @gutter-background;
+  }
+}
+
+.bracket-matcher {
+  background-color: lighten( @base-background, 5% );
+  border-bottom: 1px solid @base-foreground;
+}
+
+.comment {
+  color: @base-comment;
+  //font-style: italic;
+}
+
+.entity {
+  color: @base-entity;
+}
+
+.keyword {
+  color: @base-keyword;
+
+  &.unit { color: @base-entity; }
+}
+
+.storage.type {
+  color: @base-support;
+}
+
+.constant {
+  color: @base-constant;
+
+  &.numeric { color: @base-entity; }
+  &.support { color: @base-foreground;  }
+}
+
+.variable {
+  color: @base-variable;
+}
+
+.delimiter, .brace {
+  color: @base-foreground;
+}
+
+.delimiter.period {
+  color: @base-support;
+}
+
+.invalid.deprecated {
+  text-decoration: underline;
+  color: @red;
+}
+
+.invalid.illegal {
+  color: @red;
+}
+
+.string {
+  color: @base-string;
+
+  .constant.character.escape {
+    color: @red;
+  }
+
+  &.regexp {
+    color: @base-support;
+
+    .source.ruby.embedded,
+    .string.regexp.arbitrary-repitition {
+      color: @red;
+    }
+  }
+}
